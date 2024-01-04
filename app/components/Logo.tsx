@@ -1,36 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function Logo() {
+  // const [isHover, setIsHover] = useState<number | null>(null);
+  const items = [
+    { id: 1, abjad: "I" },
+    { id: 2, abjad: "z" },
+    { id: 3, abjad: "z" },
+    { id: 4, abjad: "a" },
+    { id: 5, abjad: "h" },
+    { id: 6, abjad: "n" },
+    { id: 7, abjad: "i" },
+    { id: 8, abjad: "n" },
+  ];
   return (
-    <main className="flex gap-3 items-center">
-      <span className="flex h-10 w-10 cursor-default items-center justify-center rounded-full bg-white align-middle text-gray-950 hover:rotate-180 transition-all duration-500">
-        A
+    <main className="flex select-none items-center gap-4">
+      <span className="flex h-10 w-10 border-separate cursor-default items-center justify-center rounded-br-xl rounded-tl-xl border-r-4 border-t-4 border-blue-primary bg-white align-middle text-xl font-black uppercase text-gray-950 transition-all delay-75 duration-700 hover:rotate-90">
+        Z
       </span>
       <section className="item-center flex cursor-pointer text-xl font-black tracking-wide">
-        <span className="transition-all duration-500 hover:-mt-2 hover:text-sky-500 hover:duration-100">
-          I
-        </span>
-        <span className="transition-all duration-500 hover:-mt-2 hover:text-sky-500 hover:duration-100">
-          z
-        </span>
-        <span className="transition-all duration-500 hover:-mt-2 hover:text-sky-500 hover:duration-100">
-          z
-        </span>
-        <span className="transition-all duration-500 hover:-mt-2 hover:text-sky-500 hover:duration-100">
-          a
-        </span>
-        <span className="transition-all duration-500 hover:-mt-2 hover:text-sky-500 hover:duration-100">
-          h
-        </span>
-        <span className="transition-all duration-500 hover:-mt-2 hover:text-sky-500 hover:duration-100">
-          n
-        </span>
-        <span className="transition-all duration-500 hover:-mt-2 hover:text-sky-500 hover:duration-100">
-          i
-        </span>
-        <span className="transition-all duration-500 hover:-mt-2 hover:text-sky-500 hover:duration-100">
-          n
-        </span>
+        {items.map((item) => (
+          <span
+            key={item.id}
+            className="transition-all duration-500 hover:-mt-2 hover:text-blue-primary hover:duration-100"
+          >
+            {item.abjad}
+          </span>
+        ))}
       </section>
     </main>
   );
