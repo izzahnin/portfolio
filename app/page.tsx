@@ -1,9 +1,11 @@
-import Image from 'next/image'
+import Hero from "./components/Hero";
+import SectionProjects from "./components/SectionProjects";
 
 export default function Home() {
   return (
-    <main>
-      home page
+    <main >
+      <Hero />
+      <SectionProjects />
     </main>
-  )
+  );
 }
