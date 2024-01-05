@@ -11,7 +11,7 @@ export interface DataItem {
 export const getAllData = (): DataItem[] => [
   {
     id: 1,
-    thumbnail: "/image/lamacca-monopoli.png",
+    thumbnail: "/images/lamacca-monopoli.png",
     title: "Lamacca Monopoli",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam fuga nobis totam sit odit. Placeat?",
     tools: ["React", "JavaScript", "TailwindCSS"],
@@ -20,7 +20,7 @@ export const getAllData = (): DataItem[] => [
   },
   {
     id: 2,
-    thumbnail: "/image/bg-1.svg",
+    thumbnail: "/images/lamacca-monopoli.png",
     title: "BookShelf App",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam fuga nobis totam sit odit. Placeat?",
     tools: ["HTML", "CSS", "JavaScript"],
@@ -29,7 +29,16 @@ export const getAllData = (): DataItem[] => [
   },
   {
     id: 3,
-    thumbnail: "/image/bg-2.svg",
+    thumbnail: "/images/lamacca-monopoli.png",
+    title: "Note App",
+    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam fuga nobis totam sit odit. Placeat?",
+    tools: ["React", "TypeScript", "TailwindCSS"],
+    linkGithub: "https://github.com",
+    linkDemo: "https://izzahnin.github.io/note-app/",
+  },
+  {
+    id: 3,
+    thumbnail: "/images/lamacca-monopoli.png",
     title: "Note App",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam fuga nobis totam sit odit. Placeat?",
     tools: ["React", "TypeScript", "TailwindCSS"],
