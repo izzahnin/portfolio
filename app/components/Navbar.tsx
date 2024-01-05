@@ -8,12 +8,12 @@ export const Navbar = () => {
 
   const navItems = [
     { id: 1, title: "About", link: "/" },
-    { id: 2, title: "Projects", link: "/" },
+    { id: 2, title: "Projects", link: "/projects" },
     { id: 3, title: "Contact", link: "/" },
   ];
 
   return (
-    <nav className="flex h-14 items-center justify-between ">
+    <nav className="flex h-14 items-center justify-between">
       <Logo />
       <ul className="flex items-baseline gap-10 ">
         {navItems.map((item) => (
