@@ -8,7 +8,7 @@ export const Navbar = () => {
 
   const navItems = [
     { id: 1, title: "About", link: "/" },
-    { id: 2, title: "Projects", link: "/projects" },
+    { id: 2, title: "Projects", link: "/" },
     { id: 3, title: "Contact", link: "/" },
   ];
 
@@ -20,9 +20,7 @@ export const Navbar = () => {
           <Link
             key={item.id}
             href={item.link}
-            className={` transition-all delay-75 duration-100 ${
-              active === item.id ? "" : "opacity-40 hover:opacity-100 "
-            }`}
+            className="opacity-40 transition-all delay-75 duration-100 hover:opacity-100"
             onClick={() => setActive(item.id)}
           >
             {item.title}

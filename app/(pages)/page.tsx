@@ -4,7 +4,7 @@ import SectionTools from "../components/SectionTools";
 
 export default function Home() {
   return (
-    <main>
+    <main className="flex flex-col gap-10">
       <Hero />
       <SectionProjects />
       <SectionTools />
