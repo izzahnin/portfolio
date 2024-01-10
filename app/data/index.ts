@@ -14,7 +14,7 @@ export const getAllData = (): DataItem[] => [
     thumbnail: "/images/lamacca.png",
     title: "Lamacca Monopoli",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam fuga nobis totam sit odit. Placeat?",
+      "Lamacca Monopoli is a board game that have been modified to be a qr-code based game. This game is made for my PKM-PM project.",
     tools: ["React", "JavaScript", "TailwindCSS"],
     linkGithub: "https://github.com/izzahnin/lamacca-monopoli",
     linkDemo: "https://lamacca-monopoli.vercel.app/",
@@ -24,7 +24,7 @@ export const getAllData = (): DataItem[] => [
     thumbnail: "/images/thumbnail-note.jpeg",
     title: "Note App",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam fuga nobis totam sit odit. Placeat?",
+      "This app is made for my submission in Dicoding's 'Belajar Membuat Aplikasi Web dengan React' course.",
     tools: ["React", "TypeScript", "TailwindCSS"],
     linkGithub: "https://github.com",
     linkDemo: "https://note-app-izzahnin.vercel.app/",
@@ -34,7 +34,7 @@ export const getAllData = (): DataItem[] => [
     thumbnail: "/images/elixir.png",
     title: "Elixir",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam fuga nobis totam sit odit. Placeat?",
+      "Team project from Sistem Informasi course, this project is made for our final project.",
     tools: ["NextJS", "TypeScript", "TailwindCSS"],
     linkGithub: "https://github.com",
     linkDemo: "https://elixir-perfume.vercel.app/",
@@ -44,7 +44,7 @@ export const getAllData = (): DataItem[] => [
     thumbnail: "/images/thumbnail-bookshelf.jpeg",
     title: "BookShelf App",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam fuga nobis totam sit odit. Placeat?",
+      "This app is made for my submission in Dicoding's 'Belajar Fundamental Front-End Web Development' course.",
     tools: ["HTML", "CSS", "JavaScript"],
     linkGithub: "https://github.com",
     linkDemo: "https://izzahnin.github.io/bookshelf-apps/",
@@ -54,29 +54,29 @@ export const getAllData = (): DataItem[] => [
     thumbnail: "/images/cstudio.png",
     title: "CSTUDIO",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam fuga nobis totam sit odit. Placeat?",
+      "Submission from dicoding 'Belajar Dasar Pemrograman Web' course.",
     tools: ["HTML", "CSS", "JavaScript"],
     linkGithub: "https://github.com",
     linkDemo: "https://izzahnin.github.io/cstudio/",
-  },
-  {
-    id: 5,
-    thumbnail: "/images/gsp.png",
-    title: "PT.Ghaisan Putra Perkasa Makassar",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam fuga nobis totam sit odit. Placeat?",
-    tools: ["HTML", "CSS", "JavaScript"],
-    linkGithub: "https://github.com",
-    linkDemo: "https://izzahnin.github.io/ghaisanputraperkasa/",
   },
   {
     id: 6,
     thumbnail: "/images/jb.png",
     title: "PT.Jalur Berlian Makassar",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam fuga nobis totam sit odit. Placeat?",
+      "Simple Company Profile of PT.Jalur Berlian Makassar",
     tools: ["HTML", "CSS", "JavaScript"],
     linkGithub: "https://github.com",
     linkDemo: "https://izzahnin.github.io/jalurberlian/",
+  },
+  {
+    id: 5,
+    thumbnail: "/images/gsp.png",
+    title: "PT.Ghaisan Putra Perkasa Makassar",
+    description:
+      "Simple Company Profile of PT.Ghaisan Putra Perkasa Makassar",
+    tools: ["HTML", "CSS", "JavaScript"],
+    linkGithub: "https://github.com",
+    linkDemo: "https://izzahnin.github.io/ghaisanputraperkasa/",
   },
 ];
