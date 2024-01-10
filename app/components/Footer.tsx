@@ -1,26 +1,24 @@
-import React from 'react'
+import React from "react";
+import Link from "next/link";
+
+import { FaLinkedin, FaGithub, FaInstagramSquare } from "react-icons/fa";
+import { MdMail } from "react-icons/md";
 
 export const Footer = () => {
   return (
-    <main>
-      <section className='flex justify-between'>
-        <div>
-          <h1>pages</h1>
-          <ul>
-            <li>Home</li>
-            <li>Projects</li>
-            <li>Contact</li>
-          </ul>
-        </div>
-        <div>
-          <h1>social</h1>
-          <ul>
-            <li>LinkedIn</li>
-            <li>GitHub</li>
-            <li>Twitter</li>
-          </ul>
-        </div>
+    <main className="flex flex-col w-full items-center gap-4"> 
+      <section className="flex align-middle items-center w-1/3 justify-between text-2xl">
+        <Link href="https://github.com/izzahnin" target="_blank" className="hover:text-blue-primary" >
+          <FaGithub />
+        </Link>
+        <Link href="https://www.linkedin.com/in/nurul-izzah-nurhidayat-397346289/" target="_blank" className="hover:text-blue-primary">
+          <FaLinkedin />
+        </Link>
+        <Link href="https://www.instagram.com/izzah_nin/" target="_blank" className="hover:text-blue-primary">
+          <FaInstagramSquare />
+        </Link>
       </section>
+      {/* <footer>Izzahnin &copy; 2024</footer> */}
     </main>
-  )
-}
+  );
+};
