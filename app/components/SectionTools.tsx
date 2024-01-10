@@ -21,9 +21,9 @@ export default function SectionTools() {
               alt={icon.name}
               width={40}
               height={40}
-              className="h-10 w-10"
+              className="h-10 w-10 hover:scale-110 transition duration-300 ease-in-out"
             />
-            <span className="text-center text-xs font-semibold text-gray-300">
+            <span className="text-center text-xs font-semibold text-gray-300 cursor-default">
               {icon.name}
             </span>
           </div>
