@@ -18,7 +18,7 @@ export default function CardProject(props: CardProjectProps) {
   const { title, description, linkGithub, linkDemo, thumbnail, tools } = props;
 
   return (
-    <main className="mx-auto flex max-h-min max-w-sm flex-col gap-5 md:justify-center">
+    <main className="mx-auto flex max-h-min max-w-sm flex-col gap-3 md:justify-center">
       <section>
         <section className=" relative flex  flex-col justify-center rounded-xl border border-gray-300 object-cover p-2 transition-all delay-75 duration-200 hover:border-blue-primary">
           <div className="aspect-video overflow-hidden rounded-md">

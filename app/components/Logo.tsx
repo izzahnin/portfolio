@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 
-export default function Logo() {
+export const Logo = () => {
   // const [isHover, setIsHover] = useState<number | null>(null);
   const items = [
     { id: 1, abjad: "I" },

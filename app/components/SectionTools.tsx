@@ -3,9 +3,9 @@ import Image from "next/image";
 
 import { listIcon } from "../utils/listIcon";
 
-export default function SectionTools() {
+export const SectionTools = () => {
   return (
-    <main className="flex flex-col gap-5">
+    <main className="flex flex-col gap-5 max-w-3xl">
       <section className="flex flex-col items-center gap-4 text-5xl md:flex-row">
         <div className="flex items-center gap-2">
           <h1 className="font-semibold">Tools</h1>

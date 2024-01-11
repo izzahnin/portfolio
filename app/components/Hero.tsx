@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Hero() {
+export const Hero = () => {
   return (
     <main className='text-center flex flex-col items-center justify-center h-96 my-auto'>
       {/* <section> */}

@@ -2,7 +2,7 @@ import React from "react";
 import CardProject from "./CardProject";
 import { getAllData } from "../data";
 
-export default function SectionProjects() {
+export const SectionProjects = () => {
   return (
     <main className="flex flex-col gap-5">
       <section className="flex flex-col items-center gap-4 text-5xl md:flex-row">
@@ -12,7 +12,7 @@ export default function SectionProjects() {
         </div>
         <p></p>
       </section>
-      <section className="grid gap-4 lg:grid-cols-3">
+      <section className="grid gap-4 lg:grid-cols-3 items-start ">
         {getAllData()
           .slice(0, 7)
           .map((project) => (
