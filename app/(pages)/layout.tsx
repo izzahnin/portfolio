@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-auto">
       <body className="${inter.className} flex-1 bg-blue-dark">
-        <main className="m-auto max-w-6xl p-3 sm:p-5 text-white">
+        <main className="m-auto max-w-6xl text-white">
           <Navbar />
           {children}
           <Footer />
