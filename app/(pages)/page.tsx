@@ -3,9 +3,9 @@ import {SectionProjects} from "../components/SectionProjects";
 import {SectionTools} from "../components/SectionTools";
 import {SectionContact} from "../components/SectionContact";
 
-export const Home = () => {
+export default function Home() {
   return (
-    <main className="flex my-10 flex-col gap-10">
+    <main className="flex my-10 flex-col gap-10 p-5">
       <Hero />
       <SectionProjects />
       <SectionTools />

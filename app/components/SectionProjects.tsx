@@ -4,7 +4,7 @@ import { getAllData } from "../data";
 
 export const SectionProjects = () => {
   return (
-    <main className="flex flex-col gap-5">
+    <main  id="projects" className="flex flex-col gap-5">
       <section className="flex flex-col items-center gap-4 text-5xl md:flex-row">
         <div className="flex items-center gap-2">
           <h1 className="font-semibold">Projects</h1>
