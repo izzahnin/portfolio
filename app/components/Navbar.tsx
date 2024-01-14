@@ -1,13 +1,13 @@
 "use client";
 import React, { useState } from "react";
-import { Logo } from "./Logo";
+import { Logo } from "@components/Logo";
 import Link from "next/link";
 
 export const Navbar = () => {
   const navItems = [
     { id: 1, title: "About", link: "/#about" },
-    { id: 2, title: "Projects", link: "/#project" },
-    { id: 3, title: "Skills", link: "/#skills" },
+    { id: 2, title: "Projects", link: "/#projects" },
+    { id: 3, title: "Tools", link: "/#tools" },
     { id: 4, title: "Contact", link: "/#contact" },
   ];
 
@@ -20,8 +20,8 @@ export const Navbar = () => {
 
   return (
     <main className="sticky top-0 z-50 bg-blue-dark">
-      <nav className="flex h-14 w-full items-center justify-between">
-        <div className="flex w-full items-center justify-between px-2">
+      <nav className="m-auto flex h-14 w-full max-w-6xl  items-center justify-between px-4">
+        <div className="flex w-full items-center justify-between px-2 sm:px-0">
           <Logo />
           <button
             title="menu"
@@ -35,7 +35,9 @@ export const Navbar = () => {
             ></span>
             <span
               className={`h-1 w-6 bg-white transition-all duration-700 ease-in-out ${
-                isNavOpen ? "w-0 transition-all duration-700 ease-in-out" : ""
+                isNavOpen
+                  ? "opacity-0 transition-all duration-700 ease-in-out"
+                  : ""
               }`}
             ></span>
             <span
@@ -68,7 +70,7 @@ export const Navbar = () => {
       {/* Mobile Navigation Menu */}
       {isNavOpen && (
         <div
-          className={`fixed flex h-fit w-full transform items-center justify-center bg-blue-dark bg-opacity-90 transition-transform duration-300 ease-in-out sm:hidden ${
+          className={`custom-height fixed flex w-full transform items-center justify-center bg-blue-dark bg-opacity-90 transition-transform duration-300 ease-in-out sm:hidden ${
             isNavOpen ? "" : ""
           }`}
         >
