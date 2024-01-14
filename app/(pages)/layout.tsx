@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../globals.css";
-import { Navbar } from "../components/Navbar";
-import { Footer } from "../components/Footer";
+import { Navbar } from "@components/Navbar";
+import { Footer } from "@components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,9 +17,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="scroll-auto">
+    <html lang="en" className="scroll-smooth">
       <body className="${inter.className} flex-1 bg-blue-dark">
-        <main className="m-auto max-w-6xl text-white">
+        <main className="m-auto text-white">
           <Navbar />
           {children}
           <Footer />
