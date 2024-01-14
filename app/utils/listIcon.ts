@@ -23,12 +23,12 @@ export const listIcon = [
     svg: "/icons/react.svg",
     color: "#61DAFB",
   },
-  {
-    id: 5,
-    name: "NodeJS",
-    svg: "/icons/nodejs.svg",
-    color: "#339933",
-  },
+  // {
+  //   id: 5,
+  //   name: "NodeJS",
+  //   svg: "/icons/nodejs.svg",
+  //   color: "#339933",
+  // },
   {
     id: 6,
     name: "TypeScript",
