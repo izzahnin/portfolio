@@ -2,11 +2,10 @@ import React from "react";
 import Link from "next/link";
 
 import { FaLinkedin, FaGithub, FaInstagramSquare } from "react-icons/fa";
-import { MdMail } from "react-icons/md";
 
 export const Footer = () => {
   return (
-    <main className="flex flex-col w-full items-center gap-4"> 
+    <main className="flex flex-col w-full items-center gap-4 my-4"> 
       <section className="flex align-middle items-center w-1/3 justify-between text-2xl">
         <Link href="https://github.com/izzahnin" target="_blank" className="hover:text-blue-primary" >
           <FaGithub />
@@ -18,7 +17,6 @@ export const Footer = () => {
           <FaInstagramSquare />
         </Link>
       </section>
-      {/* <footer>Izzahnin &copy; 2024</footer> */}
     </main>
   );
 };
