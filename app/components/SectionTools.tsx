@@ -7,7 +7,7 @@ export const SectionTools = () => {
   return (
     <main
       id="tools"
-      className="m-auto flex w-full max-w-sm flex-col gap-8 px-4 sm:px-0 md:max-w-3xl lg:max-w-6xl lg:px-4  "
+      className="m-auto flex w-full max-w-sm flex-col gap-8 px-4 pt-16 sm:px-0 md:max-w-3xl lg:max-w-6xl lg:px-4  "
     >
       <section className="flex flex-col items-center gap-4 md:items-start ">
         <div className="flex items-center gap-2 text-4xl">

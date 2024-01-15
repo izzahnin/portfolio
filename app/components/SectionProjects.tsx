@@ -4,7 +4,10 @@ import { getAllData } from "../data";
 
 export const SectionProjects = () => {
   return (
-    <main id="projects" className="m-auto flex max-w-6xl flex-col gap-5 px-4">
+    <main
+      id="projects"
+      className="m-auto flex max-w-6xl flex-col gap-5 px-4 pt-16"
+    >
       <section className="flex flex-col items-center gap-4 text-4xl md:flex-row">
         <div className="flex items-center gap-2">
           <h1 className="font-semibold">Projects</h1>

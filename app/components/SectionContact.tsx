@@ -9,7 +9,7 @@ export const SectionContact = () => {
       className="custom-height w-fullflex-col m-auto flex max-w-6xl gap-5 px-4"
     >
       <section className="m-auto flex w-4/5 max-w-3xl flex-col items-start gap-5 sm:flex-row  sm:items-center  sm:justify-between sm:gap-0">
-        <div className="flex w-2/3 flex-col gap-4 sm:w-1/2 md:w-3/6 ">
+        <div className="flex w-4/5 flex-col gap-4 sm:w-1/2 md:w-3/6 ">
           <h1 className="text-3xl font-bold">Interested in Collaboration?</h1>
           <p className="text-blue-300">
             Feel free to send me an email. I&apos;ll try to respond as soon as
