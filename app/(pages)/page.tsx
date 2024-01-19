@@ -1,14 +1,16 @@
-import {Hero} from "../components/Hero";
-import {SectionProjects} from "../components/SectionProjects";
-import {SectionTools} from "../components/SectionTools";
-import {SectionContact} from "../components/SectionContact";
+import { Hero } from "@components/Hero";
+import { SectionProjects } from "@components/SectionProjects";
+import { SectionTools } from "@components/SectionTools";
+import { SectionContact } from "@components/SectionContact";
+import { SectionAbout } from "@/components/SectionAbout";
 
 export default function Home() {
   return (
-    <main className="flex my-10 flex-col gap-10 p-5">
+    <main className="flex h-full flex-col ">
       <Hero />
-      <SectionProjects />
+      <SectionAbout />
       <SectionTools />
+      <SectionProjects />
       <SectionContact />
     </main>
   );
