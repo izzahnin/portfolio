@@ -16,7 +16,7 @@ export const SectionProjects = () => {
             <h1 className="font-semibold">Projects</h1>
             <span className="h-3 w-3 rounded-full bg-blue-primary"></span>
           </div>
-          <p></p>
+          <p></p>   
         </section>
       </Reveal>
       <section className="grid items-start gap-4 md:grid-cols-2 lg:grid-cols-3 ">

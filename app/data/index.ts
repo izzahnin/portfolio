@@ -40,6 +40,16 @@ export const getAllData = (): DataItem[] => [
     linkDemo: "https://elixir-perfume.vercel.app/",
   },
   {
+    id: 6,
+    thumbnail: "/images/sigap.png",
+    title: "SIGAP PSU MAKASSAR",
+    description:
+      "Simple Company Profile of SIGAP PSU MAKASSAR",
+    tools: ["NextJS", "TypeScript", "MaterialUI", "TailwindCSS"],
+    linkGithub: "https://github.com",
+    linkDemo: "https://sigappsumakassar.vercel.app/",
+  },
+  {
     id: 2,
     thumbnail: "/images/thumbnail-bookshelf.jpeg",
     title: "BookShelf App",
