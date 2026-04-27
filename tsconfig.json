@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es2017",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -18,12 +18,11 @@
         "name": "next"
       }
     ],
-    "baseUrl": "./app",
     "paths": {
-      "@/*": ["./*"],
-      "@components/*": ["./components/*"],
-      "@data/*": ["./data/*"],
-      "@utils/*": ["./utils/*"],
+      "@/*": ["./app/*"],
+      "@components/*": ["./app/components/*"],
+      "@data/*": ["./app/data/*"],
+      "@utils/*": ["./app/utils/*"],
 
     }
   },

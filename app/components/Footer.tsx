@@ -13,7 +13,7 @@ export const Footer = () => {
         <Link href="https://www.linkedin.com/in/nurul-izzah-nurhidayat-397346289/" target="_blank" className="hover:text-blue-primary">
           <FaLinkedin />
         </Link>
-        <Link href="https://www.instagram.com/izzah_nin/" target="_blank" className="hover:text-blue-primary">
+        <Link href="https://www.instagram.com/izzahnin/" target="_blank" className="hover:text-blue-primary">
           <FaInstagramSquare />
         </Link>
       </section>

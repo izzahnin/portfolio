@@ -23,12 +23,12 @@ export const listIcon = [
     svg: "/icons/react.svg",
     color: "#61DAFB",
   },
-  // {
-  //   id: 5,
-  //   name: "NodeJS",
-  //   svg: "/icons/nodejs.svg",
-  //   color: "#339933",
-  // },
+  {
+    id: 5,
+    name: "NodeJS",
+    svg: "/icons/nodejs.svg",
+    color: "#339933",
+  },
   {
     id: 6,
     name: "TypeScript",
@@ -52,5 +52,41 @@ export const listIcon = [
     name: "Git",
     svg: "/icons/git.svg",
     color: "#F05032",
+  },
+  {
+    id: 10,
+    name: "Postman",
+    svg: "/icons/postman.svg",
+    color: "#FF6C37",
+  },
+  {
+    id: 11,
+    name: "Express.js",
+    svg: "/icons/expressjs.png",
+    color: "#ffffff",
+  },
+  {
+    id: 12,
+    name: "MySQL",
+    svg: "/icons/mysql.svg",
+    color: "#4479A1",
+  },
+  {
+    id: 13,
+    name: "Docker",
+    svg: "/icons/docker.svg",
+    color: "#2496ED",
+  },
+  {
+    id: 14,
+    name: "VS Code",
+    svg: "/icons/vscode.svg",
+    color: "#007ACC",
+  },
+  {
+    id: 15,
+    name: "Go",
+    svg: "/icons/go.svg",
+    color: "#00ADD8",
   }
 ];

@@ -3,12 +3,16 @@ import { SectionProjects } from "@components/SectionProjects";
 import { SectionTools } from "@components/SectionTools";
 import { SectionContact } from "@components/SectionContact";
 import { SectionAbout } from "@/components/SectionAbout";
+import { SectionExperience } from "@/components/SectionExperience";
+import { SectionHighlights } from "@/components/SectionHighlights";
 
 export default function Home() {
   return (
     <main className="flex h-full flex-col ">
       <Hero />
       <SectionAbout />
+      <SectionHighlights />
+      <SectionExperience />
       <SectionTools />
       <SectionProjects />
       <SectionContact />

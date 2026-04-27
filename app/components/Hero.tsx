@@ -14,11 +14,14 @@ export const Hero = () => {
           <Reveal>
             <h1 className="text-3xl font-black">
               Hi, I&apos;m{" "}
-              <span className="text-blue-primary">Nurul Izzah</span>
+              <span className="text-blue-primary">Nurul Izzah Nurhidayat</span>
             </h1>
           </Reveal>
           <Reveal>
-            <p className="text-3xl font-bold">I&apos;m a Frontend Developer</p>
+            <p className="text-3xl font-bold">Web Developer</p>
+          </Reveal>
+          <Reveal>
+            <p className="mt-4 max-w-2xl text-lg text-gray-300">Web Developer with internship experience in responsive web and mobile interface development.</p>
           </Reveal>
         </div>
       </section>

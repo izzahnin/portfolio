@@ -6,9 +6,11 @@ import Link from "next/link";
 export const Navbar = () => {
   const navItems = [
     { id: 1, title: "About", link: "/#about" },
-    { id: 3, title: "Tools", link: "/#tools" },
-    { id: 2, title: "Projects", link: "/#projects" },
-    { id: 4, title: "Contact", link: "/#contact" },
+    { id: 2, title: "Highlights", link: "/#highlights" },
+    { id: 3, title: "Experience", link: "/#experience" },
+    { id: 4, title: "Tools", link: "/#tools" },
+    { id: 5, title: "Projects", link: "/#projects" },
+    { id: 6, title: "Contact", link: "/#contact" },
   ];
 
   const [active, setActive] = useState<number | null>(null);

@@ -8,18 +8,21 @@ export const SectionProjects = () => {
   return (
     <main
       id="projects"
-      className="m-auto flex max-w-6xl flex-col gap-5 px-4 pt-16"
+      className="m-auto flex max-w-6xl flex-col gap-8 px-4 pt-16"
     >
       <Reveal>
-        <section className="flex flex-col items-center gap-4 text-4xl md:flex-row">
+        <section className="flex flex-col items-center gap-3 text-4xl md:items-start">
           <div className="flex items-center gap-2">
             <h1 className="font-semibold">Projects</h1>
             <span className="h-3 w-3 rounded-full bg-blue-primary"></span>
           </div>
-          <p></p>   
+          <p className="max-w-3xl text-center text-base text-slate-300 md:text-left">
+            Selected work that reflects practical product thinking, interface
+            quality, and implementation discipline.
+          </p>
         </section>
       </Reveal>
-      <section className="grid items-start gap-4 md:grid-cols-2 lg:grid-cols-3 ">
+      <section className="grid items-start gap-6 md:grid-cols-2 lg:grid-cols-3">
         {getAllData().map((project) => (
           <Reveal key={project.id}>
             <CardProject
