@@ -1,6 +1,5 @@
 import { Hero } from "@components/Hero";
 import { SectionProjects } from "@components/SectionProjects";
-import { SectionTools } from "@components/SectionTools";
 import { SectionContact } from "@components/SectionContact";
 import { SectionAbout } from "@/components/SectionAbout";
 import { SectionExperience } from "@/components/SectionExperience";
@@ -13,7 +12,6 @@ export default function Home() {
       <SectionAbout />
       <SectionHighlights />
       <SectionExperience />
-      <SectionTools />
       <SectionProjects />
       <SectionContact />
     </main>
