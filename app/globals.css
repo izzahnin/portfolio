@@ -1,25 +1,65 @@
-/* poppins google font */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* ── Theme tokens ── */
+:root {
+  --bg:               #f5f0e8;
+  --bg-surface:       #ede8de;
+  --bg-surface-hover: #e5dfd2;
+  --text-primary:     #1a1814;
+  --text-mid:         #4a4540;
+  --text-secondary:   #7a7268;
+  --text-muted:       #9a9088;
+  --text-soft:        #b5ab9e;
+  --text-faint:       #c8bdb0;
+  --accent:           #fdc500;
+  --navbar-bg:        rgba(245, 240, 232, 0.95);
+  --mobile-menu-bg:   rgba(245, 240, 232, 0.98);
+  --border-subtle:    rgba(26, 24, 20, 0.08);
+  --border-light:     rgba(26, 24, 20, 0.10);
+  --border-medium:    rgba(26, 24, 20, 0.15);
+  --border-strong:    rgba(26, 24, 20, 0.20);
+  --scrollbar:        #9a9088;
+}
+
+.dark {
+  --bg:               #1a1714;
+  --bg-surface:       #242120;
+  --bg-surface-hover: #2d2a28;
+  --text-primary:     #ede8de;
+  --text-mid:         #c0b4a8;
+  --text-secondary:   #8a7e74;
+  --text-muted:       #857a72;
+  --text-soft:        #6a605a;
+  --text-faint:       #4a4440;
+  --accent:           #fdc500;
+  --navbar-bg:        rgba(26, 23, 20, 0.95);
+  --mobile-menu-bg:   rgba(26, 23, 20, 0.98);
+  --border-subtle:    rgba(240, 232, 222, 0.08);
+  --border-light:     rgba(240, 232, 222, 0.10);
+  --border-medium:    rgba(240, 232, 222, 0.12);
+  --border-strong:    rgba(240, 232, 222, 0.18);
+  --scrollbar:        #3a3530;
+}
+
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: var(--bg);
+  color: var(--text-primary);
 }
 
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 5px;
 }
 
-::-webkit-scrollbar-thumb
-{
-	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #343847;
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: var(--scrollbar);
 }
 
-.custom-height {
+/* .custom-height {
   height: calc(100vh - 56px);
-}
+} */

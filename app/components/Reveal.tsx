@@ -6,9 +6,10 @@ import { motion, useInView, useAnimation } from "framer-motion";
 interface RevealProps {
   children: JSX.Element;
   width?: "w-fit" | "w-full";
+  className?: string;
 }
 
-export const Reveal = ({ children, width = "w-full" }: RevealProps) => {
+export const Reveal = ({ children, width = "w-full", className = "" }: RevealProps) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
@@ -23,7 +24,7 @@ export const Reveal = ({ children, width = "w-full" }: RevealProps) => {
   }, [isInView, mainControls, slideControls]);
 
   return (
-    <div ref={ref} className={`relative overflow-hidden ${width}`}>
+    <div ref={ref} className={`relative overflow-hidden ${width} ${className}`}>
       <motion.div
         variants={{
           hidden: { opacity: 0, y: 75 },

@@ -1,48 +1,63 @@
 import React from "react";
 import Image from "next/image";
-
-import { listIcon } from "../utils/listIcon";
-
+import { listIcon, IconCategory } from "../utils/listIcon";
 import { Reveal } from "./Reveal";
+
+const categories: { key: IconCategory; label: string; sublabel: string }[] = [
+  { key: "frontend", label: "Frontend",      sublabel: "where it started"    },
+  { key: "backend",  label: "Backend",       sublabel: "currently deepening" },
+  { key: "cloud",    label: "Cloud & Tools", sublabel: ""                    },
+];
 
 export const SectionTools = () => {
   return (
-    <main
-      id="tools"
-      className="m-auto flex w-full max-w-6xl flex-col gap-8 px-4 pt-16"
-    >
+    <main id="tools" className="m-auto flex w-full max-w-6xl flex-col gap-10 px-4 pt-20">
       <Reveal>
-        <section className="flex flex-col items-center gap-3 text-4xl md:items-start">
+        <section className="flex flex-col items-center gap-3 md:items-start">
           <div className="flex items-center gap-2">
-            <h1 className="font-semibold">Tools</h1>
-            <span className="h-3 w-3 rounded-full bg-blue-primary"></span>
+            <h1 className="font-display text-3xl font-semibold text-[var(--text-primary)]">Tools</h1>
+            <span className="h-2 w-2 rounded-full bg-[var(--accent)]"></span>
           </div>
-          <p className="max-w-2xl text-center text-base text-slate-300 md:text-left">
-            Technologies and tools I use to build, test, and ship web products.
+          <p className="max-w-2xl text-center text-base text-[var(--text-secondary)] md:text-left">
+            Technologies I use to build, test, and ship — grouped by where they sit in the stack.
           </p>
         </section>
       </Reveal>
 
-      <section className="grid grid-cols-3 gap-4 sm:grid-cols-4 lg:grid-cols-5">
-        {listIcon.map((icon) => (
-          <Reveal key={icon.id}>
-            <section className="flex h-full flex-col items-center gap-3 rounded-xl border border-slate-700/70 bg-[#0a1929]/80 px-3 py-4 text-center shadow-lg transition duration-300 hover:-translate-y-1 hover:border-blue-400/60">
-              <div className="flex h-16 w-16 items-center justify-center rounded-full border border-blue-400/20 bg-[#092039]">
-              <Image
-                src={icon.svg}
-                alt={icon.name}
-                width={40}
-                height={40}
-                  className="h-9 w-9 transition duration-300 ease-in-out hover:scale-110"
-              />
+      <div className="flex flex-col gap-8">
+        {categories.map((cat) => {
+          const icons = listIcon.filter((i) => i.category === cat.key);
+          return (
+            <Reveal key={cat.key}>
+              <div className="flex flex-col gap-3">
+                <div className="flex items-center gap-3">
+                  <span className="font-display text-sm font-semibold text-[var(--text-primary)]">{cat.label}</span>
+                  {cat.sublabel && <span className="text-xs text-[var(--text-soft)]">{cat.sublabel}</span>}
+                  <div className="h-px flex-1 bg-[var(--border-subtle)]" />
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {icons.map((icon) => (
+                    <div
+                      key={icon.id}
+                      className="flex items-center gap-2 rounded-lg bg-[var(--bg-surface)] px-3 py-2 transition duration-200 hover:bg-[var(--bg-surface-hover)]"
+                    >
+                      <Image
+                        src={icon.svg}
+                        alt={icon.name}
+                        width={18}
+                        height={18}
+                        className="h-[18px] w-[18px] flex-shrink-0"
+                        unoptimized
+                      />
+                      <span className="text-sm text-[var(--text-mid)]">{icon.name}</span>
+                    </div>
+                  ))}
+                </div>
               </div>
-              <span className="cursor-default text-xs font-semibold text-slate-300 md:text-sm">
-                {icon.name}
-              </span>
-            </section>
-          </Reveal>
-        ))}
-      </section>
+            </Reveal>
+          );
+        })}
+      </div>
     </main>
   );
 };
