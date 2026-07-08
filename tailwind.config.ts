@@ -8,12 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        blue:{
-          primary: "#49b2e8",
-          dark: "#000a1f",
-        }
-      }
+      fontFamily: {
+        display: ["Plus Jakarta Sans", "sans-serif"],
+      },
     },
   },
   plugins: [],
