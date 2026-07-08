@@ -6,7 +6,7 @@ import { Reveal } from "./Reveal";
 
 export const Hero = () => {
   return (
-    <main className="h-svh m-auto flex w-full max-w-6xl flex-col items-center justify-center px-4 text-center">
+    <main className="h-screen m-auto flex w-full max-w-6xl flex-col items-center justify-center px-4 text-center">
       <section className="flex h-3/4 flex-col items-center justify-center gap-6">
         <Reveal>
           <div className="flex flex-col items-center gap-1 py-0.5">

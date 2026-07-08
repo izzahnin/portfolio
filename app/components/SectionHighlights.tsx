@@ -6,7 +6,7 @@ import { listIcon } from "../utils/listIcon";
 const groups = [
   {
     category: "Frontend",
-    items: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "TailwindCSS", "Material UI"],
+    items: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "TailwindCSS", "MaterialUI"],
   },
   {
     category: "Backend",

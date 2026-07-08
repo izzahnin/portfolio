@@ -70,7 +70,7 @@ export const Navbar = () => {
 
       {/* Mobile menu */}
       {isNavOpen && (
-        <div className="custom-height fixed w-full bg-[var(--mobile-menu-bg)] backdrop-blur-sm sm:hidden">
+        <div className="h-svh fixed w-full bg-[var(--mobile-menu-bg)] backdrop-blur-sm sm:hidden">
           <ul className="flex flex-col border-t border-[var(--border-light)]">
             {navItems.map((item) => (
               <Link
