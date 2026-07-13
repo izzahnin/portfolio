@@ -10,7 +10,11 @@ const groups = [
   },
   {
     category: "Backend",
-    items: ["NodeJS", "Express.js", "Go", "MySQL", "PostgreSQL"],
+    items: ["NodeJS", "Express.js", "Go"],
+  },
+  {
+    category: "Database",
+    items: ["MySQL", "PostgreSQL"],
   },
   {
     category: "Cloud & Infra",
@@ -37,7 +41,7 @@ export const SectionHighlights = () => {
         </section>
       </Reveal>
 
-      <div className="grid gap-8 sm:grid-cols-2">
+      <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
         {groups.map((group) => (
           <Reveal key={group.category}>
             <div className="flex flex-col gap-3">

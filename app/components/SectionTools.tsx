@@ -6,7 +6,9 @@ import { Reveal } from "./Reveal";
 const categories: { key: IconCategory; label: string; sublabel: string }[] = [
   { key: "frontend", label: "Frontend",      sublabel: "where it started"    },
   { key: "backend",  label: "Backend",       sublabel: "currently deepening" },
-  { key: "cloud",    label: "Cloud & Tools", sublabel: ""                    },
+  { key: "database", label: "Database",      sublabel: ""                    },
+  { key: "cloud",    label: "Cloud & Infra", sublabel: ""                    },
+  { key: "devtool",  label: "Dev Tools",     sublabel: ""                    },
 ];
 
 export const SectionTools = () => {

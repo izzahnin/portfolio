@@ -122,8 +122,8 @@ export const getOtherProjects = (): DataItem[] => [
     title: "BookShelf App",
     description: "A digital bookshelf for managing reading lists — add, search, and archive books — built with vanilla JavaScript to practice core DOM manipulation without a framework.",
     tools: ["HTML", "CSS", "JavaScript", "Local Storage"],
-    linkGithub: "",
-    linkDemo: "",
+    linkGithub: "https://github.com/izzahnin/bookshelf-apps",
+    linkDemo: "https://izzahnin.github.io/bookshelf-apps/",
   },
   {
     id: 6,
@@ -131,8 +131,8 @@ export const getOtherProjects = (): DataItem[] => [
     title: "Jalur Berlian — Company Profile",
     description: "An early company profile site for a freight and logistics company in Makassar — the first engagement with this client, later followed by the full-stack Fleet Management System.",
     tools: ["HTML", "CSS", "JavaScript"],
-    linkGithub: "",
-    linkDemo: "",
+    linkGithub: "https://github.com/izzahnin/jalurberlian",
+    linkDemo: "https://izzahnin.github.io/jalurberlian/",
   },
   {
     id: 7,
@@ -140,8 +140,8 @@ export const getOtherProjects = (): DataItem[] => [
     title: "PT. Ghaisan Putra Perkasa",
     description: "A company profile website for a logistics and freight forwarding company, focused on presenting company services clearly to prospective clients.",
     tools: ["HTML", "CSS", "JavaScript"],
-    linkGithub: "",
-    linkDemo: "",
+    linkGithub: "https://github.com/izzahnin/ghaisanputraperkasa",
+    linkDemo: "https://izzahnin.github.io/ghaisanputraperkasa/",
   },
 ];
 
