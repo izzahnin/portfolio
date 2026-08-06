@@ -82,6 +82,15 @@ export const getFeaturedProjects = (): FeaturedProject[] => [
 export const getOtherProjects = (): DataItem[] => [
   {
     id: 1,
+    thumbnail: "/images/url-shortener.png",
+    title: "NinURL URL Shortener",
+    description: "Full-stack URL shortener with analytics, built with a focus on fast redirects, Redis caching, async click tracking, custom aliases, expiry dates, and privacy-aware visitor analytics.",
+    tools: ["Next.js", "TypeScript", "Express", "PostgreSQL", "Prisma", "Redis"],
+    linkGithub: "https://github.com/izzahnin/url-shortener",
+    linkDemo: "https://ninurl.vercel.app/",
+  },
+  {
+    id: 2,
     thumbnail: "/images/elixir.png",
     title: "Elixir Perfume E-Commerce",
     description: "Full-stack e-commerce platform for luxury perfumes, built as a team project for an Information Systems course. Covers product catalog, shopping cart, user authentication, and API integration.",
@@ -90,7 +99,7 @@ export const getOtherProjects = (): DataItem[] => [
     linkDemo: "https://elixir-perfume.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     thumbnail: "/images/sigap.png",
     title: "SIGAP PSU Makassar",
     description: "Company profile website for SIGAP PSU Makassar, focused on responsive design and clean information architecture for a government-affiliated housing service.",
@@ -99,7 +108,7 @@ export const getOtherProjects = (): DataItem[] => [
     linkDemo: "https://sigappsumakassar.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     thumbnail: "/images/lamacca.png",
     title: "Lamacca Monopoli",
     description: "A QR-code based digital monopoly board game built for a PKM-PM research project, with real-time gameplay and an interactive UI designed to modernize a traditional board game.",
@@ -108,7 +117,7 @@ export const getOtherProjects = (): DataItem[] => [
     linkDemo: "https://lamacca-monopoli.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     thumbnail: "/images/thumbnail-note.jpeg",
     title: "Note App",
     description: "A note-taking app with create, edit, search, and delete functionality, with persistent storage — built to practice clean state management in React.",
@@ -117,7 +126,7 @@ export const getOtherProjects = (): DataItem[] => [
     linkDemo: "https://note-app-izzahnin.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     thumbnail: "/images/thumbnail-bookshelf.jpeg",
     title: "BookShelf App",
     description: "A digital bookshelf for managing reading lists — add, search, and archive books — built with vanilla JavaScript to practice core DOM manipulation without a framework.",
@@ -126,7 +135,7 @@ export const getOtherProjects = (): DataItem[] => [
     linkDemo: "https://izzahnin.github.io/bookshelf-apps/",
   },
   {
-    id: 6,
+    id: 7,
     thumbnail: "/images/jb.png",
     title: "Jalur Berlian — Company Profile",
     description: "An early company profile site for a freight and logistics company in Makassar — the first engagement with this client, later followed by the full-stack Fleet Management System.",
@@ -135,7 +144,7 @@ export const getOtherProjects = (): DataItem[] => [
     linkDemo: "https://izzahnin.github.io/jalurberlian/",
   },
   {
-    id: 7,
+    id: 8,
     thumbnail: "/images/gsp.png",
     title: "PT. Ghaisan Putra Perkasa",
     description: "A company profile website for a logistics and freight forwarding company, focused on presenting company services clearly to prospective clients.",
