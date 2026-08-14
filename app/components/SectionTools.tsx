@@ -21,7 +21,7 @@ export const SectionTools = () => {
             <span className="h-2 w-2 rounded-full bg-[var(--accent)]"></span>
           </div>
           <p className="max-w-2xl text-center text-base text-[var(--text-secondary)] md:text-left">
-            Technologies I use to build, test, and ship — grouped by where they sit in the stack.
+            Technologies I use to build, test, and ship, grouped by where they sit in the stack.
           </p>
         </section>
       </Reveal>

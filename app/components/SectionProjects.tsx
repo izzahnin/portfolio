@@ -21,7 +21,7 @@ export const SectionProjects = () => {
               <span className="h-2 w-2 rounded-full bg-[var(--accent)]"></span>
             </div>
             <p className="max-w-3xl text-center text-base text-[var(--text-secondary)] md:text-left">
-              Selected work that reflects fullstack thinking, interface quality, and implementation discipline.
+              Selected work that shows how I approach a project from planning to deployment, covering both interface design and backend implementation.
             </p>
           </section>
         </Reveal>

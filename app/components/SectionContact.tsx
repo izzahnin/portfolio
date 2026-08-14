@@ -13,7 +13,7 @@ export const SectionContact = () => {
             <span className="h-2 w-2 rounded-full bg-[var(--accent)]"></span>
           </div>
           <p className="max-w-2xl text-center text-base text-[var(--text-secondary)] md:text-left">
-            Open to Fullstack Developer opportunities and collaborative product teams.
+            Open to Full-stack Developer opportunities and collaborative product teams.
           </p>
         </section>
       </Reveal>
@@ -26,21 +26,21 @@ export const SectionContact = () => {
             </h2>
             <p className="max-w-md text-[var(--text-secondary)]">
               Whether it&apos;s a web development project, consultation, or just a chat
-              about technology — feel free to reach out.
+              about technology, feel free to reach out.
             </p>
             <div className="space-y-2 text-sm text-[var(--text-muted)]">
-              <p><span className="text-[var(--text-mid)]">Email</span> — cacaizzah2008@gmail.com</p>
-              <p><span className="text-[var(--text-mid)]">Location</span> — Makassar, Indonesia</p>
+              <p><span className="text-[var(--text-mid)]">Email</span>: cacaizzah2008@gmail.com</p>
+              <p><span className="text-[var(--text-mid)]">Location</span>: Makassar, Indonesia</p>
               <p>
-                <span className="text-[var(--text-mid)]">Status</span> —{" "}
-                <span className="text-emerald-600">Available for projects</span>
+                <span className="text-[var(--text-mid)]">Status</span>:{" "}
+                <span className="text-emerald-600">Open to Full-stack Developer roles</span>
               </p>
             </div>
           </div>
 
           <div className="flex flex-col gap-3">
             <Link
-              href="mailto:cacaizzah2008@gmail.com?subject=Portfolio Contact - Let's Work Together"
+              href="mailto:cacaizzah2008@gmail.com?subject=Portfolio Contact, Let's Work Together"
               className="flex items-center gap-2 rounded-md bg-[var(--accent)] px-5 py-2.5 text-sm font-semibold text-[#1a1814] transition hover:bg-[#fdc500]/80"
             >
               <FiMail size={15} />

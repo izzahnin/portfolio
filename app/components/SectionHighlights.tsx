@@ -6,19 +6,19 @@ import { listIcon } from "../utils/listIcon";
 const groups = [
   {
     category: "Frontend",
-    items: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "TailwindCSS", "MaterialUI"],
+    items: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS", "Material UI", "TanStack Query", "TanStack Table"],
   },
   {
     category: "Backend",
-    items: ["NodeJS", "Express.js", "Go"],
+    items: ["Node.js", "Express.js", "Go", "Fiber", "Gin"],
   },
   {
     category: "Database",
-    items: ["MySQL", "PostgreSQL"],
+    items: ["MySQL", "PostgreSQL", "Redis", "Supabase", "Prisma"],
   },
   {
     category: "Cloud & Infra",
-    items: ["Google Cloud Platform", "Docker"],
+    items: ["Google Cloud Platform", "Docker", "Vercel", "Firebase"],
   },
   {
     category: "Dev Tools",

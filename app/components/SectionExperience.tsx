@@ -3,9 +3,9 @@ import { Reveal } from "./Reveal";
 
 const experiences = [
   {
-    role: "Frontend Developer — Internship",
+    role: "Frontend Developer Intern",
     company: "Center of Technology (CoT), Fakultas Teknik UNHAS",
-    period: "Mar 2024 – Nov 2024",
+    period: "Mar 2024 - Nov 2024",
     location: "Gowa, Indonesia",
     bullets: [
       "Built internal management application interfaces using React and Ionic to digitalize administrative processes.",
@@ -17,7 +17,7 @@ const experiences = [
     tags: ["React", "Ionic", "JavaScript", "HTML", "CSS", "REST API", "Git/GitHub"],
   },
   {
-    role: "Backend Developer — Bangkit Capstone Project",
+    role: "Backend Developer, Bangkit Capstone Project",
     company: "Bangkit Academy, Cloud Computing Track",
     period: "2024",
     location: "Remote",

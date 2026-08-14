@@ -11,25 +11,26 @@ export const Hero = () => {
         <Reveal>
           <div className="flex flex-col items-center gap-1 py-0.5">
             <p className="text-sm text-[var(--text-muted)]">
-              Nurul Izzah Nurhidayat · Fresh Graduate, Informatics Engineering
+              Nurul Izzah Nurhidayat, fresh graduate in Informatics Engineering
             </p>
             <p className="text-sm text-[var(--accent)]">
-              Open to Fullstack Developer opportunities
+              Open to Full-stack Developer opportunities
             </p>
           </div>
         </Reveal>
 
         <Reveal>
           <h1 className="font-display max-w-4xl text-4xl font-semibold leading-tight text-[var(--text-primary)] md:text-5xl lg:text-6xl">
-            Building products from the interface down to the{" "}
-            <em className="not-italic text-[var(--accent)]">infrastructure</em> that runs them.
+            Full-stack developer focused on building web applications, from {" "}
+            <span className="text-[var(--accent)]">frontend interfaces</span> to {" "}
+            <span className="text-[var(--accent)]">backend systems.</span>
           </h1>
         </Reveal>
 
         <Reveal>
           <div className="flex justify-center py-0.5">
             <p className="max-w-3xl text-base text-[var(--text-secondary)] md:text-lg">
-              Fresh Graduate in Informatics Engineering from Universitas Hasanuddin. Started in frontend, growing into fullstack — from React interfaces to Go-powered backends.
+              Fresh graduate in Informatics Engineering from Universitas Hasanuddin. Started in frontend development and gradually expanded into full-stack, moving from React interfaces to backend systems built with Go.
             </p>
           </div>
         </Reveal>

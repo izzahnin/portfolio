@@ -22,7 +22,7 @@ export const SectionAbout = () => {
         <div className="flex flex-col gap-4 md:col-span-2">
           <Reveal>
             <p className="text-justify leading-7 text-[var(--text-primary)]">
-              Hi, I&apos;m Nurul Izzah Nurhidayat — a Fresh Graduate in Informatics Engineering from Hasanuddin University, now working as a Fullstack Developer. I started in frontend during my internship at CoT UNHAS, then expanded into backend and cloud through Bangkit Academy and independent projects like Indonesia Seismic Monitor and Fleet Management System — both built solo, end to end.
+              Hi, I&apos;m Nurul Izzah Nurhidayat, a fresh graduate in Informatics Engineering from Hasanuddin University, now working as a Full-stack Developer. I started in frontend during my internship at CoT UNHAS, then expanded into backend and cloud through Bangkit Academy and independent projects like Indonesia Seismic Monitor and Fleet Management System, both built solo from start to finish.
             </p>
           </Reveal>
 
@@ -51,11 +51,11 @@ export const SectionAbout = () => {
                 </div>
                 <div className="flex justify-between gap-4 border-b border-[var(--border-subtle)] pb-3">
                   <span className="text-[var(--text-muted)]">Role</span>
-                  <span className="text-right text-[var(--text-primary)]">Fullstack Developer</span>
+                  <span className="text-right text-[var(--text-primary)]">Full-stack Developer</span>
                 </div>
                 <div className="flex justify-between gap-4 border-b border-[var(--border-subtle)] pb-3">
                   <span className="text-[var(--text-muted)]">Education</span>
-                  <span className="text-right text-[var(--text-primary)]">S1 Informatika — UNHAS</span>
+                  <span className="text-right text-[var(--text-primary)]">S1 Informatika, UNHAS</span>
                 </div>
                 <div className="flex justify-between gap-4">
                   <span className="text-[var(--text-muted)]">GPA</span>
