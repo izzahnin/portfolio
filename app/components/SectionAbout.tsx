@@ -13,7 +13,7 @@ export const SectionAbout = () => {
             <span className="h-2 w-2 rounded-full bg-[var(--accent)]"></span>
           </div>
           <p className="max-w-3xl text-center text-base text-[var(--text-secondary)] md:text-left">
-            From frontend roots to fullstack projects.
+            From frontend foundations to full-stack web development.
           </p>
         </section>
       </Reveal>
@@ -22,7 +22,7 @@ export const SectionAbout = () => {
         <div className="flex flex-col gap-4 md:col-span-2">
           <Reveal>
             <p className="text-justify leading-7 text-[var(--text-primary)]">
-              Hi, I&apos;m Nurul Izzah Nurhidayat, a fresh graduate in Informatics Engineering from Hasanuddin University, now working as a Full-stack Developer. I started in frontend during my internship at CoT UNHAS, then expanded into backend and cloud through Bangkit Academy and independent projects like Indonesia Seismic Monitor and Fleet Management System, both built solo from start to finish.
+              Hi, I&apos;m Nurul Izzah Nurhidayat, an Informatics Engineering graduate from Hasanuddin University. My work started with frontend interfaces during my internship at CoT UNHAS, then expanded into backend and cloud development through Bangkit Academy and independent full-stack projects.
             </p>
           </Reveal>
 
@@ -55,7 +55,7 @@ export const SectionAbout = () => {
                 </div>
                 <div className="flex justify-between gap-4 border-b border-[var(--border-subtle)] pb-3">
                   <span className="text-[var(--text-muted)]">Education</span>
-                  <span className="text-right text-[var(--text-primary)]">S1 Informatika, UNHAS</span>
+                  <span className="text-right text-[var(--text-primary)]">Bachelor&apos;s in Informatics, UNHAS</span>
                 </div>
                 <div className="flex justify-between gap-4">
                   <span className="text-[var(--text-muted)]">GPA</span>

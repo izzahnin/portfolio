@@ -4,14 +4,14 @@ import { Reveal } from "./Reveal";
 const experiences = [
   {
     role: "Frontend Developer Intern",
-    company: "Center of Technology (CoT), Fakultas Teknik UNHAS",
+    company: "Center of Technology (CoT), Faculty of Engineering, UNHAS",
     period: "Mar 2024 - Nov 2024",
     location: "Gowa, Indonesia",
     bullets: [
-      "Built internal management application interfaces using React and Ionic to digitalize administrative processes.",
+      "Built internal management application interfaces using React and Ionic to digitize administrative processes.",
       "Implemented responsive designs using Ionic Framework to optimize accessibility across mobile and web platforms.",
       "Integrated frontend components with REST APIs through team collaboration for accurate data synchronization.",
-      "Performed routine interface testing and debugging to improve UX quality of developing systems.",
+      "Tested and debugged interfaces to improve the usability of systems in development.",
       "Managed code version control using Git/GitHub to support organized technical collaboration.",
     ],
     tags: ["React", "Ionic", "JavaScript", "HTML", "CSS", "REST API", "Git/GitHub"],
@@ -40,7 +40,7 @@ export const SectionExperience = () => {
             <span className="h-2 w-2 rounded-full bg-[var(--accent)]"></span>
           </div>
           <p className="max-w-2xl text-center text-base text-[var(--text-secondary)] md:text-left">
-            Practical experience delivering real systems in collaborative development teams and academic programs.
+            Practical experience from internships, collaborative teams, and academic programs.
           </p>
         </section>
       </Reveal>

@@ -14,7 +14,7 @@ export const Hero = () => {
               Nurul Izzah Nurhidayat, fresh graduate in Informatics Engineering
             </p>
             <p className="text-sm font-medium text-[var(--text-mid)]">
-              Open to Full-stack Developer opportunities
+              Open to full-stack developer opportunities
             </p>
           </div>
         </Reveal>
@@ -30,7 +30,7 @@ export const Hero = () => {
         <Reveal>
           <div className="flex justify-center py-0.5">
             <p className="max-w-4xl text-base text-[var(--text-secondary)] md:text-lg">
-              Informatics Engineering graduate from Universitas Hasanuddin. I started with React interfaces and grew into full-stack development, building backend systems with Go along the way.
+              Informatics Engineering graduate from Hasanuddin University. I started with React interfaces and have been growing into full-stack development through backend services and API work.
             </p>
           </div>
         </Reveal>
@@ -41,7 +41,7 @@ export const Hero = () => {
             <span className="h-1 w-1 rounded-full bg-[var(--border-strong)]" />
             <span>Next.js</span>
             <span className="h-1 w-1 rounded-full bg-[var(--border-strong)]" />
-            <span>Go</span>
+            <span>Backend APIs</span>
             <span className="h-1 w-1 rounded-full bg-[var(--border-strong)]" />
             <span>PostgreSQL</span>
           </div>
