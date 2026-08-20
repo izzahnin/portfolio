@@ -48,7 +48,7 @@ export const Hero = () => {
         </Reveal>
 
         <Reveal>
-          <div className="flex flex-wrap items-center justify-center gap-3">
+          <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-4">
             <Link
               href="#projects"
               className="rounded-md bg-[var(--accent)] px-6 py-2.5 text-sm font-semibold text-[#1a1814] transition duration-200 hover:bg-[#fdc500]/80 max-[height:700px]:px-5 max-[height:700px]:py-2"
@@ -73,7 +73,7 @@ export const Hero = () => {
         </Reveal>
       </section>
 
-      <section className="absolute bottom-8 max-[height:700px]:hidden">
+      <section className="absolute bottom-8 hidden lg:block max-[height:760px]:hidden">
         <Reveal>
           <Link href="#about">
             <IoIosArrowDown className="animate-bounce text-4xl text-[var(--text-soft)]" />
