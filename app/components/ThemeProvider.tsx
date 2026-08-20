@@ -8,14 +8,10 @@ const ThemeContext = createContext<Ctx | null>(null);
 
 export function ThemeProvider({
   children,
-  defaultTheme,
 }: {
   children: React.ReactNode;
-  defaultTheme?: string;
 }) {
-  const [theme, setTheme] = useState<Theme>(
-    defaultTheme === "dark" ? "dark" : "light"
-  );
+  const [theme, setTheme] = useState<Theme>("light");
 
   // On mount, reconcile with whatever the inline script already set on <html>
   useEffect(() => {
