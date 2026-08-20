@@ -6,8 +6,8 @@ import { Reveal } from "./Reveal";
 
 export const Hero = () => {
   return (
-    <main className="h-screen m-auto flex w-full max-w-6xl flex-col items-center justify-center px-4 text-center">
-      <section className="flex h-3/4 flex-col items-center justify-center gap-6">
+    <main className="relative m-auto flex min-h-[calc(100svh-3.5rem)] w-full max-w-6xl flex-col items-center justify-center px-4 py-16 text-center sm:py-20 max-[height:700px]:py-10">
+      <section className="flex flex-col items-center justify-center gap-5 sm:gap-6 max-[height:700px]:gap-4">
         <Reveal>
           <div className="flex flex-col items-center gap-1 py-0.5">
             <p className="text-sm text-[var(--text-muted)]">
@@ -20,7 +20,7 @@ export const Hero = () => {
         </Reveal>
 
         <Reveal>
-          <h1 className="font-display max-w-4xl text-4xl font-semibold leading-tight text-[var(--text-primary)] md:text-5xl lg:text-6xl">
+          <h1 className="font-display max-w-4xl text-3xl font-semibold leading-tight text-[var(--text-primary)] sm:text-4xl md:text-5xl lg:text-6xl max-[height:700px]:text-3xl">
             Full-stack developer focused on building web applications, from {" "}
             <span className="text-[var(--accent)]">frontend interfaces</span> to {" "}
             <span className="text-[var(--accent)]">backend systems.</span>
@@ -39,21 +39,21 @@ export const Hero = () => {
           <div className="flex flex-wrap items-center justify-center gap-3">
             <Link
               href="#projects"
-              className="rounded-md bg-[var(--accent)] px-6 py-2.5 text-sm font-semibold text-[#1a1814] transition duration-200 hover:bg-[#fdc500]/80"
+              className="rounded-md bg-[var(--accent)] px-6 py-2.5 text-sm font-semibold text-[#1a1814] transition duration-200 hover:bg-[#fdc500]/80 max-[height:700px]:px-5 max-[height:700px]:py-2"
             >
               View Featured Work
             </Link>
             <Link
               href="https://github.com/izzahnin"
               target="_blank"
-              className="flex items-center gap-2 rounded-md border border-[var(--border-strong)] px-6 py-2.5 text-sm font-semibold text-[var(--text-mid)] transition duration-200 hover:border-[var(--accent)] hover:text-[var(--accent)]"
+              className="flex items-center gap-2 rounded-md border border-[var(--border-strong)] px-6 py-2.5 text-sm font-semibold text-[var(--text-mid)] transition duration-200 hover:border-[var(--accent)] hover:text-[var(--accent)] max-[height:700px]:px-5 max-[height:700px]:py-2"
             >
               <FiGithub />
               GitHub
             </Link>
             <Link
               href="#contact"
-              className="rounded-md border border-[var(--border-strong)] px-6 py-2.5 text-sm font-semibold text-[var(--text-mid)] transition duration-200 hover:border-[var(--accent)] hover:text-[var(--accent)]"
+              className="rounded-md border border-[var(--border-strong)] px-6 py-2.5 text-sm font-semibold text-[var(--text-mid)] transition duration-200 hover:border-[var(--accent)] hover:text-[var(--accent)] max-[height:700px]:px-5 max-[height:700px]:py-2"
             >
               Contact
             </Link>
@@ -61,7 +61,7 @@ export const Hero = () => {
         </Reveal>
       </section>
 
-      <section className="mt-4">
+      <section className="absolute bottom-8 max-[height:700px]:hidden">
         <Reveal>
           <Link href="#about">
             <IoIosArrowDown className="animate-bounce text-4xl text-[var(--text-soft)]" />
