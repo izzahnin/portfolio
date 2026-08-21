@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "../globals.css";
 import { Navbar } from "@components/Navbar";
 import { Footer } from "@components/Footer";
@@ -7,7 +7,7 @@ import { ThemeProvider } from "@components/ThemeProvider";
 const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "https://izzahnin.my.id").replace(/\/$/, "");
 const siteName = "Nurul Izzah Nurhidayat Portfolio";
 const siteDescription =
-  "Portfolio of Nurul Izzah Nurhidayat, a full-stack developer from Makassar, Indonesia, building web applications with React, Next.js, TypeScript, Go, and PostgreSQL.";
+  "Portfolio of Nurul Izzah Nurhidayat, a full-stack developer from Makassar, Indonesia, focused on building practical web applications from interface to backend.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -29,8 +29,27 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Nurul Izzah Nurhidayat", url: siteUrl }],
   creator: "Nurul Izzah Nurhidayat",
+  publisher: "Nurul Izzah Nurhidayat",
+  applicationName: siteName,
+  category: "portfolio",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
   alternates: {
     canonical: "/",
+  },
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+    apple: "/icon.svg",
   },
   openGraph: {
     type: "website",
@@ -54,6 +73,13 @@ export const metadata: Metadata = {
     description: siteDescription,
     images: ["/images/og-portfolio.png"],
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#f5f0e8" },
+    { media: "(prefers-color-scheme: dark)", color: "#1a1714" },
+  ],
 };
 
 const personJsonLd = {
