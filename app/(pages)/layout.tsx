@@ -4,7 +4,7 @@ import { Navbar } from "@components/Navbar";
 import { Footer } from "@components/Footer";
 import { ThemeProvider } from "@components/ThemeProvider";
 
-const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "https://izzahnin.my.id").replace(/\/$/, "");
+const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "https://www.izzahnin.my.id").replace(/\/$/, "");
 const siteName = "Nurul Izzah Nurhidayat Portfolio";
 const siteDescription =
   "Portfolio of Nurul Izzah Nurhidayat, a full-stack developer from Makassar, Indonesia, focused on building practical web applications from interface to backend.";
