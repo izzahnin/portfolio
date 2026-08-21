@@ -32,7 +32,7 @@ export const SectionHighlights = () => {
       <Reveal>
         <section className="flex flex-col items-center gap-3 md:items-start">
           <div className="flex items-center gap-2">
-            <h1 className="font-display text-3xl font-semibold text-[var(--text-primary)]">Stack</h1>
+            <h2 className="font-display text-3xl font-semibold text-[var(--text-primary)]">Stack</h2>
             <span className="h-2 w-2 rounded-full bg-[var(--accent)]"></span>
           </div>
           <p className="max-w-2xl text-center text-base text-[var(--text-secondary)] md:text-left">

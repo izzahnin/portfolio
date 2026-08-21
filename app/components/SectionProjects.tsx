@@ -17,7 +17,7 @@ export const SectionProjects = () => {
         <Reveal>
           <section className="flex flex-col items-center gap-3 md:items-start">
             <div className="flex items-center gap-2">
-              <h1 className="font-display text-3xl font-semibold text-[var(--text-primary)]">Featured Projects</h1>
+              <h2 className="font-display text-3xl font-semibold text-[var(--text-primary)]">Featured Projects</h2>
               <span className="h-2 w-2 rounded-full bg-[var(--accent)]"></span>
             </div>
             <p className="max-w-3xl text-center text-base text-[var(--text-secondary)] md:text-left">
@@ -39,7 +39,7 @@ export const SectionProjects = () => {
       <div className="flex flex-col gap-6">
         <Reveal>
           <div className="flex items-center gap-4">
-            <h2 className="font-display text-xl font-semibold text-[var(--text-primary)]">Other Projects</h2>
+            <h3 className="font-display text-xl font-semibold text-[var(--text-primary)]">Other Projects</h3>
             <div className="h-px flex-1 bg-[var(--border-light)]" />
           </div>
         </Reveal>
