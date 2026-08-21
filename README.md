@@ -1,126 +1,101 @@
 # Portfolio - Nurul Izzah Nurhidayat
 
-A modern, responsive portfolio website showcasing professional work and skills as a Fullstack Developer at Kominfo Makassar.
+Personal portfolio for Nurul Izzah Nurhidayat, an Informatics Engineering graduate focused on full-stack web development.
 
-## 🚀 Features
+The site highlights my background, practical experience, technology stack, selected full-stack projects, and contact information for developer opportunities.
 
-- **Modern Tech Stack**: Built with Next.js 14, TypeScript, and TailwindCSS
-- **Responsive Design**: Optimized for all device sizes
-- **Professional Sections**:
-  - Hero section with introduction
-  - About section with professional background
-  - Experience section showcasing work at Kominfo Makassar
-  - Tools & Technologies showcase
-  - Projects portfolio with detailed descriptions
-  - Contact information and call-to-action
+## Features
 
-## 🛠️ Tech Stack
+- App Router implementation with Next.js 14
+- Static homepage optimized for portfolio content
+- Responsive layout for desktop, tablet, and mobile screens
+- Light and dark theme support with client-side preference persistence
+- Focused sections for hero, about, stack, experience, projects, and contact
+- Project data stored locally for simple maintenance and static rendering
 
-- **Frontend**: Next.js, React, TypeScript
-- **Styling**: TailwindCSS, Material UI
-- **Icons**: React Icons, Custom SVG icons
-- **Animations**: Custom reveal animations
+## Tech Stack
+
+- **Framework**: Next.js, React, TypeScript
+- **Styling**: Tailwind CSS
+- **Animation**: Framer Motion
+- **Icons**: React Icons and local technology icons
 - **Deployment**: Vercel
 
-## 🏗️ Project Structure
+## Project Structure
 
-```
+```text
 portfolio/
-├── app/
-│   ├── components/          # Reusable UI components
-│   │   ├── Hero.tsx        # Landing section
-│   │   ├── SectionAbout.tsx    # About information
-│   │   ├── SectionExperience.tsx   # Work experience
-│   │   ├── SectionTools.tsx    # Tech stack display
-│   │   ├── SectionProjects.tsx # Project showcase
-│   │   ├── SectionContact.tsx  # Contact section
-│   │   └── Navbar.tsx      # Navigation component
-│   ├── data/
-│   │   └── index.ts        # Project data and types
-│   ├── utils/
-│   │   └── listIcon.ts     # Technology icons data
-│   └── (pages)/
-│       └── page.tsx        # Main page layout
-├── public/
-│   ├── icons/              # Technology icons
-│   └── images/             # Project screenshots
-└── ...config files
+|-- app/
+|   |-- (pages)/
+|   |   |-- layout.tsx
+|   |   `-- page.tsx
+|   |-- components/
+|   |   |-- Hero.tsx
+|   |   |-- SectionAbout.tsx
+|   |   |-- SectionHighlights.tsx
+|   |   |-- SectionExperience.tsx
+|   |   |-- SectionProjects.tsx
+|   |   |-- SectionContact.tsx
+|   |   `-- Navbar.tsx
+|   |-- data/
+|   |   `-- index.ts
+|   |-- utils/
+|   |   `-- listIcon.ts
+|   `-- globals.css
+|-- public/
+|   |-- icons/
+|   |-- images/
+|   `-- Nurul_Izzah_Nurhidayat-CV.pdf
+`-- package.json
 ```
 
-## 🎨 Recent Improvements
+## Sections
 
-✨ **Enhanced Content**: Updated with professional information from CV
-✨ **Experience Section**: Added dedicated work experience showcase
-✨ **Better Project Descriptions**: Improved project details and links
-✨ **Expanded Tech Stack**: Added more relevant technologies
-✨ **Professional Branding**: Updated from personal to professional portfolio
+- **Hero**: Short introduction, role focus, primary links, and core stack markers.
+- **About**: Background summary, profile facts, and CV download.
+- **Stack**: Technologies grouped by frontend, backend, database, cloud, and tools.
+- **Experience**: Internship and Bangkit Academy capstone experience.
+- **Projects**: Featured full-stack projects and additional selected work.
+- **Contact**: Email, location, availability, GitHub, and LinkedIn links.
 
-## 🚀 Getting Started
+## Featured Projects
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/izzahnin/portfolio.git
-   cd portfolio
-   ```
+- **Indonesia Seismic Monitor**: Real-time seismic dashboard combining BMKG and USGS data.
+- **Fleet Management System**: Independent fleet and logistics case study with GPS tracking, RBAC, and order tracking.
+- **NinURL URL Shortener**: Full-stack URL shortener with Redis caching and analytics.
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   # or
-   pnpm install
-   ```
+## Getting Started
 
-3. **Run the development server**
-   ```bash
-   npm run dev
-   # or
-   pnpm dev
-   ```
+Install dependencies:
 
-4. **Open your browser**
-   Navigate to [http://localhost:3000](http://localhost:3000)
+```bash
+npm install
+```
 
-## 📱 Sections Overview
+Run the development server:
 
-### Hero Section
-Professional introduction with name, title, and brief description
+```bash
+npm run dev
+```
 
-### About Section  
-Background information, current role at Kominfo Makassar, and professional details
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### Experience Section
-Work experience including current role and freelance projects
+Build for production:
 
-### Tools Section
-Comprehensive display of technologies and tools used
+```bash
+npm run build
+```
 
-### Projects Section
-Curated portfolio of projects with:
-- Project descriptions
-- Technology stacks used
-- Live demo and GitHub links
-
-### Contact Section
-Professional contact information and call-to-action
-
-## 🔧 Technologies Featured
-
-Frontend: HTML, CSS, JavaScript, TypeScript, React, Next.js, TailwindCSS
-Backend: Node.js, Express.js
-Database: MongoDB, MySQL  
-Tools: Git, Postman, Docker, VS Code
-
-## 📞 Contact
+## Contact
 
 **Nurul Izzah Nurhidayat**  
-Fullstack Developer at Kominfo Makassar  
-📧 cacaizzah2008@gmail.com  
-📍 Makassar, Indonesia
+Full-stack Developer  
+Makassar, Indonesia
 
-## 🚀 Deployment
+- Email: cacaizzah2008@gmail.com
+- GitHub: [github.com/izzahnin](https://github.com/izzahnin)
+- LinkedIn: [nurul-izzah-nurhidayat](https://www.linkedin.com/in/nurul-izzah-nurhidayat-397346289/)
 
-This project is deployed on Vercel. Any changes pushed to the main branch will automatically deploy.
+## Deployment
 
----
-
-Built with ❤️ using Next.js and TypeScript
+This project is deployed on Vercel.
