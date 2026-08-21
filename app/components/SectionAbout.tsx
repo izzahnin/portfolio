@@ -45,8 +45,9 @@ export const SectionAbout = () => {
 
           <Reveal>
             <Link
-              href="/Nurul_Izzah_Nurhidayat-CV.pdf"
+              href="/cv"
               target="_blank"
+              rel="noopener noreferrer"
               className="mt-2 inline-flex items-center gap-2 rounded-md border border-[var(--border-strong)] px-5 py-2 text-sm font-semibold text-[var(--text-mid)] transition hover:border-[var(--accent)] hover:text-[var(--accent)]"
             >
               <FiDownload size={14} />

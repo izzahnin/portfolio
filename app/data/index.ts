@@ -26,6 +26,10 @@ export interface FeaturedProject {
   };
 }
 
+export const profileLinks = {
+  cv: "https://p8gcy8ukp8jloegc.public.blob.vercel-storage.com/cv.pdf",
+};
+
 export const getFeaturedProjects = (): FeaturedProject[] => [
   {
     id: 1,

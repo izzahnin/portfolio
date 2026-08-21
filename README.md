@@ -19,6 +19,7 @@ The site highlights my background, practical experience, technology stack, selec
 - **Styling**: Tailwind CSS
 - **Animation**: Framer Motion
 - **Icons**: React Icons and local technology icons
+- **Asset Storage**: Vercel Blob for the public CV file
 - **Deployment**: Vercel
 
 ## Project Structure
@@ -44,8 +45,7 @@ portfolio/
 |   `-- globals.css
 |-- public/
 |   |-- icons/
-|   |-- images/
-|   `-- Nurul_Izzah_Nurhidayat-CV.pdf
+|   `-- images/
 `-- package.json
 ```
 
@@ -99,3 +99,5 @@ Makassar, Indonesia
 ## Deployment
 
 This project is deployed on Vercel.
+
+The public CV file is hosted on Vercel Blob so CV updates can be handled by replacing the Blob file instead of committing a new PDF to the repository.
